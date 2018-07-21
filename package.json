@@ -1,0 +1,13 @@
+{
+  "name": "simple-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "src/cli.js",
+  "keywords": ["cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "node-sass": "^4.9.0"
+  }
+}
