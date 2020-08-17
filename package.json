@@ -1,15 +1,16 @@
 {
-  "name": "simple-compiler",
-  "version": "1.0.0",
-  "description": "",
-  "bin": "src/cli.js",
-  "keywords": [
-    "cli"
-  ],
-  "author": "",
-  "license": "MIT",
+  "scripts": {
+    "test": "ts-node src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/node": "^14.0.27",
+    "@types/sass": "^1.16.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
   "dependencies": {
-    "fs-extra": "^7.0.0",
-    "node-sass": "^4.9.2"
+    "fs-extra": "^9.0.1",
+    "sass": "^1.26.10"
   }
 }
